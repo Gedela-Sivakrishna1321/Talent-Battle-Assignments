@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Employee Registration Form</h1>
+    <marquee> <mark>Attention : </mark>&nbsp; All the details entered below should be valid </marquee>
+    <form action="xyz.php">
+        <fieldset>
+            <legend style="font-size: larger;">
+                <h3>Employee Information</h3>
+            </legend>
+            <b> Name : </b>
+            <input type="text" name="Name">
+            &emsp; &emsp;
+            <b> Birth Place : </b>
+            <input type="text" name="Birth Place">
+            &emsp; &emsp;
+            <b> Gender : </b> Male
+            <input type="radio" value="Male" name="Gender"> Female
+            <input type="radio" value="Female" name="Gender"> Other
+            <input type="radio" value="other" name="Gender">
+            <br>
+            <br>
+            <b>Age :</b> <input type="number" name="Age" min="0" max="120">
+            &emsp; &emsp; &ensp; &emsp; &emsp; &ensp; &emsp; &emsp; &nbsp;
+            <b> Date Of Birth : </b> <input type="date" name="Date of Birth">
+            &emsp; &emsp; &emsp; &emsp;
+            <b> Highest Qualification : </b>
+            <select name="Education">
+                <option>M-tech</option>
+                <option selected>B-tech</option>
+                <option>Bsc </option>
+                <option>MBA</option>
+                <option>MSC</option>
+            </select>
+            <br>
+            <br>
+            <b>Maratial Status : </b>
+            Yes <input type="radio" name="Marriage" value="Yes">
+            No <input type="radio" name="Marriage" value="No">
+            &emsp; &emsp; &nbsp;
+            <b>Job Title : </b>
+            <input type="text" name="Job Title">
+            &emsp; &emsp; &emsp;
+            <b> Photo : </b> <input type="file" name="Photo">
+            <br>
+            <br>
+            <b>Contact N.o : </b> <input type="number">
+            <b> Graduation Year : </b> <input type="number">
+            <b>10th Mark Sheet :</b> <input type="file">
+            <br>
+            <br>
+            <b>Skills : </b> <textarea></textarea>
+            &emsp; &emsp;
+            <b>E-mail : </b> <input type="email">
+            &emsp; &emsp; &emsp; &emsp;
+            <b>Blood Group : </b>
+            <select>
+                <option>O+</option>
+                <option>O-</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit"> &emsp; &emsp; <input type="reset">
+    </form>
+
+</body>
+
+</html>
